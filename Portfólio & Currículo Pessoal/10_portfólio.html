@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Vinícius</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Vinícius dos Santos Ribeiro Antunes - Desenvolvedor Web</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- SOBRE MIM -->
+        <section id="sobre">
+
+            <h2>Sobre Mim</h2>
+
+            <img src="foto.png"
+                 alt="Foto de perfil de Vinícius"
+                 width="150"
+                 height="150">
+
+            <p>
+                Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.
+            </p>
+
+            <p>
+                Tenho conhecimento em <em>HTML, CSS, PHP e MySQL</em>
+                e estou desenvolvendo minhas habilidades na área de programação.
+            </p>
+
+            <h3>Minhas Habilidades:</h3>
+
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Banco de Dados</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <!-- PROJETOS -->
+        <section id="projetos">
+
+            <h2>Meus Projetos</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Loja de Games Retrô</td>
+                        <td>HTML</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://github.com/viniribeiroantunes-jpg/Atividade_aula_5Loja-de-Games-Retro"
+                               target="_blank">
+                                Ver Projeto
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>GR5 - Aula 20</td>
+                        <td>Desenvolvimento de Sistemas</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://github.com/viniribeiroantunes-jpg/GR5_aula20"
+                               target="_blank">
+                                Ver Projeto
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Lista 1 - Backend</td>
+                        <td>Backend</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://github.com/viniribeiroantunes-jpg/ista-1---Backend"
+                               target="_blank">
+                                Ver Projeto
+                            </a>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <br>
+        <hr>
+
+        <!-- CONTATO -->
+        <section id="contato">
+
+            <h2>Entre em Contato</h2>
+
+            <form action="" method="post">
+
+                <fieldset>
+
+                    <legend>Dados do Contato</legend>
+
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+
+                    <br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+
+                    <select id="assunto" name="assunto">
+                        <option value="trabalho">Oportunidade de Trabalho</option>
+                        <option value="projeto">Projeto</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="5"
+                        cols="20"
+                        required></textarea>
+
+                    <br><br>
+
+                    <button type="submit">Enviar Mensagem</button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            &copy; 2026 Vinícius dos Santos Ribeiro Antunes.
+            Desenvolvido durante o curso do SENAI.
+        </p>
+
+        <hr>
+
+        <p>
+            E-mail:
+            <a href="mailto:vini.ribeiro.antunes@gmail.com">
+                vini.ribeiro.antunes@gmail.com
+            </a>
+
+            | Telefone: (11) 99999-9999
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
